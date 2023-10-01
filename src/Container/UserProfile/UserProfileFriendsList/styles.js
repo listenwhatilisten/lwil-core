@@ -1,0 +1,46 @@
+export const styles = {
+  friendListBox: {
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center',
+    width: '100%',
+  },
+  friendListItem: {
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'center',
+    width: '350px',
+    height: '60px',
+    border: '1px solid',
+    borderRadius: '5px',
+    margin: '10px',
+  },
+  friendDp: {
+    width: '50px',
+    height: '50px',
+    marginY: '5px',
+    marginX: '10px',
+    border: '0.5px solid',
+    borderRadius: '50%',
+  },
+  friendNameBox: {
+    width: '40%',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  addFriendDropDown: {
+    width: '30%',
+    display: 'flex',
+    justifyContent: 'right',
+    alignItems: 'center',
+  },
+  friendshipSinceBox: {
+    width: '10%',
+    display: 'flex',
+    justifyContent: 'right',
+    alignItems: 'center',
+    marginRight: '5px',
+  },
+};

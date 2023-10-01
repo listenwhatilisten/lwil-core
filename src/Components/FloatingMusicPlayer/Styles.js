@@ -1,0 +1,38 @@
+export default {
+  floatingMusicPlayerContainer: {
+    position: 'fixed',
+    bottom: '5px',
+    left: '50%',
+    transform: 'translate(-50%, -50%)',
+    width: '150px',
+    height: '60px',
+    color: '#fff',
+    textAlign: 'center',
+    lineHeight: '50px',
+    fontSize: '24px',
+    cursor: 'pointer',
+    zIndex: '999',
+  },
+  handle: {
+    height: '10px',
+    width: '150px',
+    borderRadius: '40%',
+    backgroundColor: 'grey',
+    marginTop: '25px',
+  },
+  centerDragableContainer: {
+    height: '60px',
+    width: '60px',
+    borderRadius: '50%',
+    position: 'absolute',
+    top: '50%',
+    left: '50%',
+    transform: 'translate(-50%, -50%)',
+  },
+  centerPlayer: {
+    height: '60px',
+    width: '60px',
+    backgroundColor: 'yellow',
+    borderRadius: '50%',
+  },
+};
