@@ -67,7 +67,7 @@ export const MusicSection = () => {
             <audio
               ref={audioPlayer}
               src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
-            ></audio>
+            />
           </Box>
           <Grid2 container>
             <Grid2 xs={1}>

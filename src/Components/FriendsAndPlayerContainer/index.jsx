@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Button } from '@mui/material';
+import { Box } from '@mui/material';
 import { styles } from './Styles';
 import FriendsContainer from './FriendsContainer';
 export const FriendsAndPlayerContainer = () => {
